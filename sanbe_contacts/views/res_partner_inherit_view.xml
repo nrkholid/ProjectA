@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    
+    <record id="view_partner_form_inherit_projectA" model="ir.ui.view">
+        <field name="name">res.partner.view.form.inherit</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+
+            <xpath expr="//notebook" position="inside">
+                <page string="Personal Information" name="personal_information">
+                    <group string="General Info" name="general_info">
+                        <field name="nik"/>
+                        <field name="jenis_kelamin"/>
+                        <field name="tanggal_lahir" />
+                        <field name="umur"/>
+                    </group>
+                </page>
+            </xpath>
+            
+        </field>
+    </record>
+
+</odoo>
