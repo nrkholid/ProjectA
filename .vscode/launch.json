@@ -9,14 +9,12 @@
             "type": "python",
             "request": "launch",
             "stopOnEntry": false,
+            "program": "D:\\_work\\Projects\\odoo\\programs\\odoo-17.0\\odoo-bin",
             "console": "integratedTerminal",
-            "python": "D:\\Training\\training\\Scripts\\python",
-            "program": "D:\\Odoo17\\server\\odoo-bin",
+            "python": "D:\\_work\\Projects\\odoo\\Training17\\training17\\Scripts\\python311.exe",
             "args": [
-                "--config=D:\\Odoo17A\\Conf\\ProjectA.conf",
-                "--dev=xml",
-                // "--database=projectA_8055",
-                // "--update=sanbe_farma_training"
+                "--config=D:\\_work\\Projects\\PROJ17\\conf\\ProjectA.conf",
+                "--dev=xml"
             ]
         }
     ]
