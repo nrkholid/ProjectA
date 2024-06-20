@@ -11,6 +11,7 @@
     ],
     "data" : [
         "security/ir.model.access.csv",
+        "views/res_partner_inherit_view.xml",
     ],
     "auto_install" : False, 
     "installable" : True,
