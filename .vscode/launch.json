@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Project A",
+            "type": "python",
+            "request": "launch",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "python": "D:\\Training\\training\\Scripts\\python",
+            "program": "D:\\Odoo17\\server\\odoo-bin",
+            "args": [
+                "--config=D:\\Odoo17A\\Conf\\ProjectA.conf",
+                "--dev=xml",
+                // "--database=projectA_8055",
+                // "--update=sanbe_farma_training"
+            ]
+        }
+    ]
+}
